@@ -63,14 +63,14 @@ public class AesCipher {
 	/**
 	 * Metodo main para probar el encrypt y el decrypt
 	 */
-	// public static void main(String[] args) throws Exception {
-	//
-	// String password = "bayteq123"; //
-	// String passwordEnc = AesCipher.encrypt(padString(password));
-	// String passwordDec = AesCipher.decrypt(passwordEnc);
-	//
-	// System.out.println("Plain Text : " + password);
-	// System.out.println("Encrypted Text : " + passwordEnc);
-	// System.out.println("Decrypted Text : " + passwordDec);
-	// }
+	 public static void main(String[] args) throws Exception {
+	
+	 String password = "freddy"; //
+	 String passwordEnc = AesCipher.encrypt(padString(password));
+	 String passwordDec = AesCipher.decrypt(passwordEnc);
+	
+	 System.out.println("Plain Text : " + password);
+	 System.out.println("Encrypted Text : " + passwordEnc);
+	 System.out.println("Decrypted Text : " + passwordDec);
+	 }
 }

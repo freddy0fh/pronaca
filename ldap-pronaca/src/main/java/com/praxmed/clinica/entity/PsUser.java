@@ -7,10 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.Transient;
 
 @Entity
-@Table(name = "EPD_USUARIO")
+@Table(name = "WB_USUARIOS_TEST")
 public class PsUser implements Serializable {
 
 	/**
@@ -20,19 +19,19 @@ public class PsUser implements Serializable {
 
 	@Id
 	@GeneratedValue
-	@Column(name = "USU_CODIGO_USUARIO")
+	@Column(name = "id")
 	private long id;
 
-	@Column(name = "USU_LOGIN", unique = true)
+	@Column(name = "USUARIO", unique = true)
 	private String usuario;
 
-	@Column(name = "USU_IDENTIFICACION")
+	@Column(name = "contrasenia")
 	private String contrasenia;
 
-	@Transient
+	@Column(name = "rol")
 	private byte rol;
 
-	@Transient
+	@Column(name = "activo")
 	private boolean activo;
 
 	public PsUser() {
