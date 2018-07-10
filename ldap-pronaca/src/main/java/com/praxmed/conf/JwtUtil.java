@@ -23,7 +23,7 @@ public class JwtUtil {
 		Date exp = new Date(System.currentTimeMillis());
 		Calendar fechaExpiracion = GregorianCalendar.getInstance();
 		fechaExpiracion.setTime(new Date(System.currentTimeMillis()));
-		fechaExpiracion.add(Calendar.DATE, Constant.NUM_DIAS_EXPIRACION);
+		fechaExpiracion.add(Calendar.MINUTE, Constant.NUM_DIAS_EXPIRACION);
 		exp = fechaExpiracion.getTime();
 		String token = Jwts.builder().setIssuedAt(now).setNotBefore(now)
 				// Vamos a asignar un tiempo de expiracion de 1 dia
