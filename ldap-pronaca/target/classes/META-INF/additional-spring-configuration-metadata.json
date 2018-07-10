@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "clinica.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.url'"
+  },
+  {
+    "name": "clinica.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.username'"
+  },
+  {
+    "name": "clinica.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.password'"
+  },
+  {
+    "name": "clinica.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.driver-class-name'"
+  },
+  {
+    "name": "financiera.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'financiera.datasource.url'"
+  },
+  {
+    "name": "financiera.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'financiera.datasource.username'"
+  },
+  {
+    "name": "financiera.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'financiera.datasource.password'"
+  },
+  {
+    "name": "financiera.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'financiera.datasource.driver-class-name'"
+  },
+  {
+    "name": "clinica.datasource.testWhileIdle",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.testWhileIdle'"
+  },
+  {
+    "name": "clinica.datasource.validationQuery",
+    "type": "java.lang.String",
+    "description": "A description for 'clinica.datasource.validationQuery'"
+  },
+  {
+    "name": "praxmed.dias-token-expiracion",
+    "type": "java.lang.String",
+    "description": "A description for 'praxmed.dias-token-expiracion'"
+  }
+]}
